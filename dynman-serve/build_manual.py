@@ -6,7 +6,8 @@ def recurse_structure(path, iterable):
         if item["type"] == "dropdown":
             # recurse
             recurse_structure(path+str(index)+" - "+item['name']+"/", item["content"])
-        elif item["type"] != "img":
+        elif item["type"] != "img" and item["type"] != "link":
+            print(item)
             with open(path+str(index)+" - "+item["name"], "r") as i:
                 item["text"] = i.read()
         elif item["type"] == "img":

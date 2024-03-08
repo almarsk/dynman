@@ -45,7 +45,7 @@
       ]
     },
     {
-      "name": "Co mají všechny slavnosti ZMJ společného?",
+      "name": "Co mají všechny slavnosti Zažít město jinak společného?",
       "content": [
         {
           "name": "O Zažít město jinak",
@@ -138,7 +138,7 @@
               "type": "text"
             },
             {
-              "name": "Propagace a komunikace",
+              "name": "Propagace slavnosti",
               "type": "link"
             }
           ]
@@ -339,7 +339,7 @@
           ]
         },
         {
-          "name": "Propagace a slavnosti",
+          "name": "Propagace slavnosti",
           "type": "link"
         }
       ]
@@ -368,6 +368,10 @@
         {
           "name": "propagace AutoMatu",
           "type": "text"
+        },
+        {
+          "name": "Komunikace s místními",
+          "type": "link"
         }
       ]
     },
@@ -435,12 +439,12 @@
                   "type": "list"
                 }
               ]
-            },
-            {
-              "name": "Program",
-              "type": "link"
             }
           ]
+        },
+        {
+          "name": "Program",
+          "type": "link"
         }
       ]
     },
