@@ -1,0 +1,740 @@
+{
+  "annotation": "anotace",
+  "sections": [
+    {
+      "name": "O Zažít město jinak",
+      "content": [
+        {
+          "name": "Úvod",
+          "type": "text"
+        },
+        {
+          "name": "Co je zažít město jinak?",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Co je to zažít město jinak?",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Jak to vypadá?",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Jak to vypadá",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Co je cílem?",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Co je cílem?",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Co mají všechny slavnosti Zažít město jinak společného?",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "name": "Co mají všechny slavnosti ZMJ společného?",
+      "content": [
+        {
+          "name": "O Zažít město jinak",
+          "type": "link"
+        },
+        {
+          "name": "Společné datum konání",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Společné datum konání",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Společný název",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Společný název",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Společnou myšlenku",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Společnou myšlenku",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "S čím Vám AutoMat pomůže?",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "name": "S čím Vám AutoMat pomůže?",
+      "content": [
+        {
+          "name": "Co mají všechny slavnosti Zažít město jinak společného?",
+          "type": "link"
+        },
+        {
+          "name": "Naše role",
+          "type": "text"
+        },
+        {
+          "name": "Co je na nás",
+          "type": "list"
+        },
+        {
+          "name": "Příprava vaší sousedské slavnosti",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "name": "Příprava vaší sousedské slavnosti",
+      "content": [
+        {
+          "name": "S čím Vám AutoMat pomůže?",
+          "type": "link"
+        },
+        {
+          "name": "Na začátku",
+          "type": "text"
+        },
+        {
+          "name": "Výběr místa",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Jak na výběr místa",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Propagovace slavnosti",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Slovo k propagaci",
+              "type": "text"
+            },
+            {
+              "name": "Propagace a komunikace",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "name": "Příprava zázemí a prostoru",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Zázemí a prostor",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Zábor veřejného prostoru",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "name": "Zábor veřejného prostoru",
+      "content": [
+        {
+          "name": "Příprava vaší sousedské slavnosti",
+          "type": "link"
+        },
+        {
+          "name": "Co je to zábor",
+          "type": "text"
+        },
+        {
+          "name": "Postup pro zábor",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Záměr",
+              "type": "dropdown",
+              "content": [
+                {
+                  "name": "Záměr",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "name": "Nákres",
+              "type": "dropdown",
+              "content": [
+                {
+                  "name": "Nákres",
+                  "type": "text"
+                },
+                {
+                  "name": "Myslete na velikost",
+                  "type": "tip"
+                }
+              ]
+            },
+            {
+              "name": "Podání žádosti",
+              "type": "dropdown",
+              "content": [
+                {
+                  "name": "podání žádosti",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cena za zábor",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "cena za nábor",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Jak na zábor",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "jak na zábor",
+              "type": "text"
+            },
+            {
+              "name": "chodník",
+              "type": "tip"
+            },
+            {
+              "name": "kroky pro vyřízení záboru",
+              "type": "dropdown",
+              "content": [
+                {
+                  "name": "zjištění informací",
+                  "type": "dropdown",
+                  "content": [
+                    {
+                      "name": "zjištění informací",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "name": "představení záměru",
+                  "type": "dropdown",
+                  "content": [
+                    {
+                      "name": "představení záměru",
+                      "type": "text"
+                    },
+                    {
+                      "name": "podpora podniků",
+                      "type": "text"
+                    },
+                    {
+                      "name": "přesvědčování",
+                      "type": "text"
+                    },
+                    {
+                      "name": "zmj fb",
+                      "type": "tip"
+                    }
+                  ]
+                },
+                {
+                  "name": "vypracování projektu",
+                  "type": "dropdown",
+                  "content": [
+                    {
+                      "name": "nákres",
+                      "type": "text"
+                    },
+                    {
+                      "name": "průjezd",
+                      "type": "tip"
+                    },
+                    {
+                      "name": "odbor dopravy",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "name": "pronájem",
+                  "type": "dropdown",
+                  "content": [
+                    {
+                      "name": "pronájem",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "name": "žádost",
+                  "type": "dropdown",
+                  "content": [
+                    {
+                      "name": "žádost",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "name": "značení",
+                  "type": "dropdown",
+                  "content": [
+                    {
+                      "name": "značení",
+                      "type": "text"
+                    },
+                    {
+                      "name": "povolení",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Co s nepřeparkovanými vozidly?",
+              "type": "dropdown",
+              "content": [
+                {
+                  "name": "nepřeparkovaná vozidla",
+                  "type": "text"
+                },
+                {
+                  "name": "ztp",
+                  "type": "tip"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Propagace a slavnosti",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "name": "Propagace slavnosti",
+      "content": [
+        {
+          "name": "Zábor veřejného prostoru",
+          "type": "link"
+        },
+        {
+          "name": "propagace",
+          "type": "text"
+        },
+        {
+          "name": "Co zajistí AutoMat",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "co zajistí automat",
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "name": "propagace AutoMatu",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Komunikace s místními",
+      "content": [
+        {
+          "name": "Propagace slavnosti",
+          "type": "link"
+        },
+        {
+          "name": "komunikace s místními",
+          "type": "text"
+        },
+        {
+          "name": "jak zajistit komunikaci",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "poznejte místní",
+              "type": "dropdown",
+              "content": [
+                {
+                  "name": "poznejte místní",
+                  "type": "list"
+                },
+                {
+                  "name": "jen začátek",
+                  "type": "tip"
+                }
+              ]
+            },
+            {
+              "name": "tištěné materiály",
+              "type": "dropdown",
+              "content": [
+                {
+                  "name": "kam umístit materiály",
+                  "type": "dropdown",
+                  "content": [
+                    {
+                      "name": "kam umístit materiály",
+                      "type": "list"
+                    }
+                  ]
+                },
+                {
+                  "name": "Jaké materiály pro vás připraví AutoMat",
+                  "type": "dropdown",
+                  "content": [
+                    {
+                      "name": "jaké materiály připraví AutoMat",
+                      "type": "list"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "elektronické materiály",
+              "type": "dropdown",
+              "content": [
+                {
+                  "name": "kam umístit materiály",
+                  "type": "list"
+                }
+              ]
+            },
+            {
+              "name": "Program",
+              "type": "link"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Program",
+      "content": [
+        {
+          "name": "Komunikace s místními",
+          "type": "link"
+        },
+        {
+          "name": "harmonogram",
+          "type": "text"
+        },
+        {
+          "name": "lokálně",
+          "type": "text"
+        },
+        {
+          "name": "výstavy",
+          "type": "text"
+        },
+        {
+          "name": "relax",
+          "type": "text"
+        },
+        {
+          "name": "nahlas celý den",
+          "type": "tip"
+        },
+        {
+          "name": "po večerce",
+          "type": "text"
+        },
+        {
+          "name": "mokrá varianta",
+          "type": "text"
+        },
+        {
+          "name": "Financování",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "name": "Financování",
+      "content": [
+        {
+          "name": "Program",
+          "type": "link"
+        },
+        {
+          "name": "rozpočet",
+          "type": "text"
+        },
+        {
+          "name": "časté náklady",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "časté náklady",
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "name": "jak pokrátit rozpočet",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "jak pokrátit rozpočet",
+              "type": "list"
+            },
+            {
+              "name": "granty",
+              "type": "text"
+            },
+            {
+              "name": "dostupné granty",
+              "type": "dropdown",
+              "content": [
+                {
+                  "name": "dostupné granty",
+                  "type": "list"
+                },
+                {
+                  "name": "výzvy na fb",
+                  "type": "tip"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Technické zajištění slavností",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "name": "Technické zajištění slavností",
+      "content": [
+        {
+          "name": "Financování",
+          "type": "link"
+        },
+        {
+          "name": "Prodej",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "prodej",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Odpad a recyklace",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "recyklace a minimalizace odpadu",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Elektřina",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Elektřina",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Záchody",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "záchody",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Hudba",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "hudba",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Parkování pro kola",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "hudba",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Bezbariérový přístup",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "bezbariérový přístup",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Městská policie",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Městská policie",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "co nejméně aut",
+          "type": "tip"
+        },
+        {
+          "name": "Kodex ZMJ",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "name": "Kodex ZMJ",
+      "content": [
+        {
+          "name": "Technické zajištění slavností",
+          "type": "link"
+        },
+        {
+          "name": "posilujeme komunitu",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "komunita",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "děláme slavnost a ne festival",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "slavnost",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "děláme sešlost a ne polititku",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "apoliticky",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "neděláme to pro zisk",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "apoliticky",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "se sousedy dobře komunikujeme",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "komunikace",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "myslíme na životní prostředí",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "šetrně",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "dodržujeme večerku",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "nerušit",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "prostranství po sobě zanecháváme čisté",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "čistě",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "a nezapomínáme, kdo to všechno začal",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "automat",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+.annotation {
+    text-align: center;
+}
+
+.intro-bricks {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.brick {
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
