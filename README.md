@@ -9,4 +9,4 @@ python app\
 \
 dev server app in another terminal:\
 cd dynman-app\
-npm run dev\
+npm run dev
