@@ -678,7 +678,7 @@
           "type": "dropdown",
           "content": [
             {
-              "name": "hudba",
+              "name": "parkování pro kola",
               "type": "text"
             }
           ]
@@ -699,6 +699,16 @@
           "content": [
             {
               "name": "Městská policie",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Pojištění",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Pojištění",
               "type": "text"
             }
           ]

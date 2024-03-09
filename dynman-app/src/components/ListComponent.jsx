@@ -2,10 +2,11 @@ import PropTypes from "prop-types";
 
 const ListComponent = ({ item }) => {
   return (
-    <p>
-      {" "}
-      {item.name} {item.type}{" "}
-    </p>
+    <ul>
+      {item.text.split("\n\n").map((item, index) => (
+        <li key={index}>{item}</li>
+      ))}
+    </ul>
   );
 };
 

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import renderComponentByType from "./renderComponentByType";
+import { useState } from "react";
 
 const Section = ({ section }) => {
   if (!section) {
@@ -14,7 +15,7 @@ const Section = ({ section }) => {
       <h1>{section.name}</h1>
 
       {section.content.map((c, i) => {
-        return <div key={i}>{renderComponentByType(c)}</div>;
+        return <div key={i}>{renderComponentByType(c, [])}</div>;
       })}
     </>
   );
