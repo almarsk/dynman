@@ -39,6 +39,16 @@
           ]
         },
         {
+          "name": "Komu je manuál Zažít město jinak určen?",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Komu je manuál Zažít město jinak určen?",
+              "type": "text"
+            }
+          ]
+        },
+        {
           "name": "Co mají všechny slavnosti Zažít město jinak společného?",
           "type": "link"
         }
@@ -58,6 +68,10 @@
             {
               "name": "Společné datum konání",
               "type": "text"
+            },
+            {
+              "name": "jednotný termín",
+              "type": "tip"
             }
           ]
         },
@@ -77,6 +91,54 @@
           "content": [
             {
               "name": "Společnou myšlenku",
+              "type": "text"
+            },
+            {
+              "name": "dopravní omezení",
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "name": "Společnou přípravu",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Společná příprava",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Udržitelnou realizaci",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Udržitelná realizace",
+              "type": "text"
+            },
+            {
+              "name": "Jak na udržitelnost",
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "name": "Společnou propagaci",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Společná propagace",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "Společnou strategii",
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Společná strategie",
               "type": "text"
             }
           ]
@@ -100,7 +162,13 @@
         },
         {
           "name": "Co je na nás",
-          "type": "list"
+          "type": "dropdown",
+          "content": [
+            {
+              "name": "Co je na nás",
+              "type": "list"
+            }
+          ]
         },
         {
           "name": "Příprava vaší sousedské slavnosti",
@@ -130,7 +198,7 @@
           ]
         },
         {
-          "name": "Propagovace slavnosti",
+          "name": "Propagace slavnosti",
           "type": "dropdown",
           "content": [
             {
@@ -174,6 +242,10 @@
           "name": "Postup pro zábor",
           "type": "dropdown",
           "content": [
+            {
+              "name": "hromadné žádosti",
+              "type": "text"
+            },
             {
               "name": "Záměr",
               "type": "dropdown",
