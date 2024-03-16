@@ -9,7 +9,11 @@ const Section = ({ section }) => {
 
   return (
     <>
-      <Link to="/">zpět</Link>
+      <Link to={"/"} style={{ textDecoration: "none" }}>
+        <div style={{ display: "inline-block" }}>
+          <p className="manual-link">zpět</p>
+        </div>
+      </Link>
 
       <h1>{section.name}</h1>
 

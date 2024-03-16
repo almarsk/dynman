@@ -35,8 +35,8 @@ const DropdownComponent = ({ item, setHeightList }) => {
         onClick={() => setDropped((prev) => !prev)}
         className="dropdown-title"
       >
-        <div></div>
-        <p>{item.name}</p>
+        <div className="arrow"></div>
+        <p className="dropdown-title">{item.name}</p>
         <p className="arrow">{dropped ? "＾" : "ᵥ"}</p>
       </div>
       <div
