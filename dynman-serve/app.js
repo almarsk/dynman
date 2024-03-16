@@ -19,7 +19,6 @@ function recurseStructure(path, iterable) {
       // recurse
       recurseStructure(path + item.name + "/", item.content);
     } else if (item.type !== "img" && item.type !== "link") {
-      console.log(item);
       const text = fs.readFileSync(path + item.name, "utf8");
       item.text = text;
     } else if (item.type === "img") {

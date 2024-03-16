@@ -1,5 +1,4 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import "./App.scss";
 
 import ManualContextProvider from "./ManualContext";
 import Manual from "./Manual";

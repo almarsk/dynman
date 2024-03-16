@@ -1,0 +1,25 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+    padding: 5vh 15vw;
+    min-width: 600px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #010602;
+    background-image: url('background_zmj.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #010602;
+  margin: 10px 0;
+}

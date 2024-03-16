@@ -1,4 +1,10 @@
 {
+  "links": [
+    { "title": "Zažít město jinak", "link": "https://zazitmestojinak.cz" },
+    { "title": "Aktuality", "link": "https://zazitmestojinak.cz/aktuality" },
+    { "title": "AutoMat", "link": "https://auto-mat.cz" }
+  ],
+  "title": "Průvodce sousedskými slavnostmi",
   "annotation": "anotace",
   "sections": [
     {
@@ -49,13 +55,13 @@
           ]
         },
         {
-          "name": "Co mají všechny slavnosti Zažít město jinak společného?",
+          "name": "Co mají všechny slavnosti ZMJ společného?",
           "type": "link"
         }
       ]
     },
     {
-      "name": "Co mají všechny slavnosti Zažít město jinak společného?",
+      "name": "Co mají všechny slavnosti ZMJ společného?",
       "content": [
         {
           "name": "O Zažít město jinak",
@@ -153,7 +159,7 @@
       "name": "S čím Vám AutoMat pomůže?",
       "content": [
         {
-          "name": "Co mají všechny slavnosti Zažít město jinak společného?",
+          "name": "Co mají všechny slavnosti ZMJ společného?",
           "type": "link"
         },
         {

@@ -4,7 +4,7 @@ const TextComponent = ({ item }) => {
   const header_content = item.text.split("\n\n");
 
   return (
-    <>
+    <div className="text-content">
       {header_content.length > 1 ? (
         <div>
           <h3>{header_content[0]}</h3>
@@ -13,7 +13,7 @@ const TextComponent = ({ item }) => {
       ) : (
         <p>{header_content[0]}</p>
       )}
-    </>
+    </div>
   );
 };
 

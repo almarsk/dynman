@@ -1,7 +1,3 @@
-.annotation {
-    text-align: center;
-}
-
 .intro-bricks {
     padding: 40px;
     display: grid;
@@ -10,9 +6,9 @@
 }
 
 .brick {
-    border: 1px solid grey;
-    border-radius: 10px;
-    height: 5em;
+    background: #E69F9D;
+    border-radius: 50px;
+    height: 2.5em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +16,112 @@
     margin: 10px;
     padding: 10px;
     text-align: center;
-    color: black;
+    color: inherit;
     text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link {
+    margin: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.link-palette{
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+    border-radius: 50px;
+    margin: 5px;
+    padding: 0 30px;
+}
+
+.dropdown-title {
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* Standard syntax */
+    padding: 0 50px;
+    border-radius: 50px;
+    background-color: #E69F9D;
+}
+
+.text-content {
+    padding: 0 30px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    height: 3em;
+    background-color: #EEEBA6;
+    border-radius: 50px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.search-go {
+    height: 70%;
+    width: auto;
+    margin: 10px;
+}
+
+.search-bar {
+    font-family: inherit;
+    font-size: 20px;
+}
+
+/* Style for the search input */
+.search-bar {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #A2999C;
+}
+
+.search-bar::placeholder {
+  color: #A2999C;
+}
+
+.search-bar::-webkit-input-placeholder {
+  color: #A2999C;
+}
+
+.search-bar::-moz-placeholder {
+  color: #A2999C;
+}
+
+.search-bar:-ms-input-placeholder {
+  color: #A2999C;
+}
+
+.search-bar::placeholder {
+  color: #A2999C;
+}
+
+.search-bar::-webkit-search-decoration,
+.search-bar::-webkit-search-cancel-button,
+.search-bar::-webkit-search-results-button,
+.search-bar::-webkit-search-results-decoration {
+  color: #A2999C;
 }

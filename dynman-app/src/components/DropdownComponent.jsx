@@ -30,19 +30,16 @@ const DropdownComponent = ({ item, setHeightList }) => {
   }, [dropped, item]);
 
   return (
-    <div
-      style={{
-        border:
-          "1px solid" + "#" + Math.floor(Math.random() * 16777215).toString(16),
-        textAlign: "center",
-      }}
-    >
-      {item.name}
-      <button onClick={() => setDropped((prev) => !prev)}>
-        {dropped ? "＾" : "ᵥ"}
-      </button>
+    <div className="dropdown">
       <div
-        className={item.name}
+        onClick={() => setDropped((prev) => !prev)}
+        className="dropdown-title"
+      >
+        <div></div>
+        <p>{item.name}</p>
+        <p className="arrow">{dropped ? "＾" : "ᵥ"}</p>
+      </div>
+      <div
         ref={contentRef}
         style={{
           overflow: "hidden",
