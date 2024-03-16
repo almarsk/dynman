@@ -14,7 +14,6 @@ const Manual = () => {
   useEffect(() => {
     const fetchData = async () => {
       const data = await getData();
-      console.log(data);
       setManual(data);
     };
     fetchData();

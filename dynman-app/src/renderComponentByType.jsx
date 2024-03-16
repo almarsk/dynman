@@ -20,7 +20,7 @@ const renderComponentByType = (data, setHeightList) => {
     case "tip":
       return <TipComponent item={data} />;
     default:
-      return null; // Handle unknown types
+      return null;
   }
 };
 

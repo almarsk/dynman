@@ -8,17 +8,26 @@ const DropdownComponent = ({ item, setHeightList }) => {
   const contentRef = useRef(null);
   const [height, setHeight] = useState(0);
 
-  useEffect(() => {
-    setHeight(contentRef.current.scrollHeight);
-  }, []);
+  const [isInit, setIsInit] = useState(true);
 
   useEffect(() => {
-    setHeightList.forEach((setHeight) =>
-      dropped
-        ? setHeight((prev) => prev + height)
-        : setHeight((prev) => prev - height),
-    );
-  }, [dropped]);
+    setHeight(contentRef.current.scrollHeight);
+    return () => {
+      setDropped(false);
+    };
+  }, [item]);
+
+  useEffect(() => {
+    if (isInit) {
+      setIsInit(false);
+    } else {
+      setHeightList.forEach((setHeight) =>
+        dropped
+          ? setHeight((prev) => prev + height)
+          : setHeight((prev) => prev - height),
+      );
+    }
+  }, [dropped, item]);
 
   return (
     <div
